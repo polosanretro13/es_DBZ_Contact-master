@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+
+
+
+	<include>./right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.right}.xml</include>
+	<include>./right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.right}_${out.right.shift}.xml</include>
+	<include>./right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.system.right}.xml</include>
+	<include>./right_illustration/${animation.right.property}/${animation.right.origin}/animation_${animation.system.right}_${out.right.shift}.xml</include>
+
+	<include>./right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.right2}.xml</include>
+	<include>./right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.right2}_${out.right2.shift}.xml</include>
+	<include>./right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.system.right2}.xml</include>
+	<include>./right2_illustration/${animation.right2.property}/${animation.right2.origin}/animation_${animation.system.right2}_${out.right2.shift}.xml</include>
+
+
+</theme>

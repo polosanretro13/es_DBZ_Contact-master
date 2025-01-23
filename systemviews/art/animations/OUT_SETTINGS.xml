@@ -1,0 +1,78 @@
+<theme>
+<formatVersion>7</formatVersion>
+<variables> 
+																																				
+<out.right.zIndex>front</out.right.zIndex>																				
+<out.right.sizepos>portait</out.right.sizepos>									
+<out.right.shift>55</out.right.shift>
+<out.right.color>default</out.right.color>
+<out.right.flip>no</out.right.flip>	
+<animation.right.property>ghost</animation.right.property>
+<animation.right.origin>side</animation.right.origin>
+
+
+
+	<out.right.x.advanced>no</out.right.x.advanced>			
+
+			<x.right.x>0.5</x.right.x>
+
+
+	
+	<out.right.y.advanced>no</out.right.y.advanced>
+
+			<x.right.y>0.5</x.right.y>
+
+
+	
+	<out.right.size.overwrite>no</out.right.size.overwrite>
+	
+			<out.right.size>1</out.right.size>
+
+
+																					
+<out.right2.zIndex>front</out.right2.zIndex>																			
+<out.right2.sizepos>portrait</out.right2.sizepos>									
+<out.right2.shift>55</out.right2.shift>
+<out.right2.color>default</out.right2.color>
+<out.right2.flip>no</out.right2.flip>
+<animation.right2.property>no</animation.right2.property>
+<animation.right2.origin>side</animation.right2.origin>
+
+
+
+
+	<out.right2.x.advanced>no</out.right2.x.advanced>			
+
+			<x.right2.x>0.5</x.right2.x>
+
+	
+	<out.right2.y.advanced>no</out.right2.y.advanced>
+
+			<x.right2.y>0.5</x.right2.y>
+
+
+	<out.right2.size.overwrite>no</out.right2.size.overwrite>
+	
+			<out.right2.size>1</out.right2.size>
+
+
+
+<animation.system.right>yes</animation.system.right>
+
+							
+<animation.system.right2>yes</animation.system.right2>
+
+
+
+
+<animation.gamelist.system.right>yes</animation.gamelist.system.right>
+
+
+<animation.gamelist.system.right2>yes</animation.gamelist.system.right2>
+
+
+
+
+
+</variables>
+</theme>
