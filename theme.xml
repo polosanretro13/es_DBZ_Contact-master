@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:
+
+polosanretro Gaming Thème Megamax+plus
+spécial thanks à freebidouille une bonne partie des systèmes menu boules de crystal.
+Les videos systèmes manquantes sont ici : https://drive.google.com/drive/folders/1X-zoBMMdIj9jMtEKECFOwVqjljRzcKs4?usp=sharing
+
+Opaque                                         Translucide                                      Invisible
+100%  95%  90%  85%  80%  75%  70%  65%  60%  65%  50%  45%  40%  35%  30%  25%  20%  15%  10%  5%  0%
+ FF   F2   E6   D9   CC   BF   B3   A6   99   8C   80   73   66   59   4D   40   33   26   1A   0D  00
+
+-->
+<theme defaultView="video">
+
+  <formatVersion>7</formatVersion>
+
+
+
+<!-- Variables-->
+  <variables>
+
+
+    <baseColor>14C6CA</baseColor>
+
+	<!-- Couleurs -->
+	<ColorSeleccionMenu>e32934</ColorSeleccionMenu>
+	<primaryColorMenu>ffffff</primaryColorMenu>
+	<secundaryColorMenu>d7d7d8</secundaryColorMenu>
+	<ColordelSelectorMenu>1c1c1c</ColordelSelectorMenu>
+
+
+
+	<pauseColorIconos>cecece</pauseColorIconos>
+        <pauseColorTexto>efe9e5</pauseColorTexto>
+
+
+
+	<systemInfoColor>1d1d1b</systemInfoColor>
+        <glowColor>efe9e5</glowColor>
+	<colorHora>ffffff</colorHora>
+
+	<subset.colorset>Jeux de couleurs</subset.colorset>
+	<fundacion>Fonction</fundacion>
+	<colorDescriccion>ffffff</colorDescriccion> 
+        <UIcolortitulo>efe9e5</UIcolortitulo>
+	<fondoMenu>333333</fondoMenu>
+	<colorDeveloper>ffffff</colorDeveloper>
+
+  <feature supported="carousel">
+   <view name="system">
+	<sound name="directory">
+         <path>./medias/music</path>
+	</sound>	  
+   </view>
+</feature>
+</variables>
+
+
+
+
+
+
+
+<!-- MENU -->  
+  <view name="menu">
+	<menuText name="menutitle">
+	                       <fontPath>./medias/knight-rider.TTF</fontPath>
+      <fontSize>0.047</fontSize>
+      <color>${UIcolortitulo}</color>
+    </menuText>
+    <menuText name="menufooter">
+                           <fontPath>./medias/knight-rider.TTF</fontPath>
+      <fontSize>0.022</fontSize>
+	  <color>fcfcfc</color>
+    </menuText>
+    <menuText name="menutext">
+                        <fontPath>./medias/knight-rider.TTF</fontPath>
+      <fontSize>0.034</fontSize>
+      <color>7b868a</color>
+      <separatorColor>ffffff</separatorColor>
+      <selectorColor>dgdgdg</selectorColor>
+      <selectorColorEnd>dgdgdg</selectorColorEnd>
+      <selectedColor>FFFFFF9F</selectedColor>
+      <selectorGradientType>vertical</selectorGradientType>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+                           <fontPath>./medias/knight-rider.TTF</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>FFFFFF</color>
+    </menuTextSmall>
+    <menuBackground name="menubg">
+      <color>${fondoMenu}</color>
+      <cornerSize></cornerSize>
+                                       <!-- <path>./medias/???.png</path> -->
+    </menuBackground>
+    <menuTextEdit name="menutextedit">
+	                   <inactive>./medias/textinput_ninepatch.png</inactive>
+                            <active>./medias/textinput_ninepatch_active.png</active>
+	</menuTextEdit>
+    <menuGroup name="menugroup">
+      <fontPath>./medias/knight-rider.TTF</fontPath>
+      <fontSize>0.025</fontSize>
+      <color>ffffff</color>
+      <separatorColor>7b868a</separatorColor>    
+      <backgroundColor>1b212b</backgroundColor>
+      <lineSpacing>2.5</lineSpacing>
+    </menuGroup>
+    <menuButton name="menubutton">
+	                          <path>./medias/button.png</path>
+                                  <filledPath>./medias/button_filled.png</filledPath>
+    </menuButton> 
+  </view>
+
+
+
+
+
+
+
+
+
+<!--   <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./medias/iconsets/dbz/Kodi.png</iconKodi>
+      <iconSystem>./medias/iconsets/dbz/System.png</iconSystem>
+      <iconUpdates>./medias/iconsets/dbz/Updates.png</iconUpdates>
+      <iconGames>./medias/iconsets/dbz/Games.png</iconGames>
+      <iconControllers>./medias/iconsets/dbz/Controllers.png</iconControllers>
+      <iconUI>./medias/iconsets/dbz/UI.png</iconUI>
+      <iconSound>./medias/iconsets/dbz/Sound.png</iconSound>
+      <iconNetwork>./medias/iconsets/dbz/Network.png</iconNetwork>
+      <iconScraper>./medias/iconsets/dbz/Scraper.png</iconScraper>
+      <iconAdvanced>./medias/iconsets/dbz/Advanced.png</iconAdvanced>
+      <iconQuit>./medias/iconsets/dbz/Quit.png</iconQuit>
+      <iconRestart>./medias/iconsets/dbz/Restart.png</iconRestart>
+      <iconShutdown>./medias/iconsets/dbz/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./medias/iconsets/dbz/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./medias/iconsets/dbz/Contest.png</iconRetroachievements>
+    </menuIcons>
+  </view> -->
+
+
+
+  <view name="system">       
+    <image name="background" extra="true">
+      <tile>false</tile>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+                             <path>./medias/capa-color.png</path>
+	  <color>${baseColor}</color>
+	  <colorEnd>60FFBF00</colorEnd>
+	  <gradientType>vertical</gradientType>
+	  <zIndex>10</zIndex>
+    </image>     		
+  </view>
+
+    <view name="basic">
+	<helpsystem name="help">
+      <textColor>fffc00</textColor>
+      <iconColor>ff0000</iconColor>
+	  <fontPath>./medias/fuentes/DragonBall.ttf</fontPath>
+	  <fontSize>0.025</fontSize>
+	  <pos>0.005 0.955</pos>
+    </helpsystem>
+
+		<text name="md_description">
+			<color>ffb400</color>
+			<forceUppercase>1</forceUppercase>
+        <fontPath>../medias/fuentes/DragonBall.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+		</text>
+			
+	  
+		<image name="basfond" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./medias/fonbasG.jpg</path>
+		 <zIndex>42</zIndex>
+		</image>	
+
+        <image name="backgroundfond" extra="true">
+        <pos>0 </pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <path>./medias/fonddbzG.png</path>
+        </image>
+
+
+        <image name="bouleanime" extra="true">
+        <pos>0.315 0.25</pos>
+        <origin>0 0</origin>
+        <size>0.14 0.1811</size>
+        <path>./medias/boulecrystal1.png</path>
+		<storyboard>
+        		<animation property="rotation" to="802" begin="0" autoreverse="false" duration="8800" repeat="forever" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+
+        </image>
+
+        <image name="vaisseau1" extra="true">
+        <pos>0.22 0.20</pos>
+        <origin>0 0</origin>
+        <size>0.2 0.188</size>
+        <path>./medias/vaisseau1.png</path>
+		<storyboard>
+        		<animation property="y" to="0.67" begin="2800" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.58" begin="300" autoreverse="true" duration="8450" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+
+        </image>
+
+        <image name="dragon1" extra="true">
+        <pos>0.755 0.018</pos>
+        <origin>0 0</origin>
+        <size>0.188 0.25</size>
+        <path>./medias/dragon1.png</path>
+		<storyboard>
+        		<animation property="y" to="0.5" begin="2800" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.55" begin="300" autoreverse="true" duration="8450" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+
+        </image>
+
+
+	<textlist name="gamelist">
+	    <pos>0.046 0.16</pos>
+        <size>0.18 0.57</size>
+        <selectorColor>FFFFFFFF</selectorColor>
+        <selectedColor>fd0200</selectedColor>
+        <primaryColor>fffc00</primaryColor>
+        <secondaryColor>ff0000</secondaryColor>
+        <fontPath>../medias/fuentes/DragonBall.ttf</fontPath>
+        <fontSize>0.027</fontSize>
+        <alignment>left</alignment>
+		<lineSpacing>1.100</lineSpacing>
+		<scrollSound>./sounds/scroll.ogg</scrollSound>
+      </textlist>
+
+  
+	   <image name="logos" extra="true">
+         <origin>0.5 0.5</origin>
+         <size>0.19 0.09</size>
+      <pos>0.69 0.10</pos>
+          <path>./medias/capsules/default.png</path>
+          <path>./medias/capsules/${system.theme}.png</path>
+  <reflexion>0.12 0.0</reflexion>
+ <reflexionOnFrame>true</reflexionOnFrame>
+         <zIndex>43</zIndex>
+
+      </image>
+
+  
+  </view> 
+
+
+<!-- INDICADEUR-->
+	<view name="screen">	
+		<text name="clock">
+			<color>777777FF</color>
+			<fontSize>0.025</fontSize>
+			<pos>0.90 0.945</pos>
+			<size>0.09 0.058</size>
+			<alignment>right</alignment>
+			<verticalAlignment>center</verticalAlignment>
+			<fontPath>./medias/fonts/american.ttf</fontPath>
+         <zIndex>10016</zIndex>
+		</text>
+
+ 
+
+ 		<controllerActivity name="controllerActivity">
+			<pos>0.005 0.005</pos>
+			<size>0.085 0.025</size>
+			<itemSpacing>0.003</itemSpacing>
+			<imagePath>./medias/gamepad.png</imagePath>
+      <gunPath>./medias/gun.png</gunPath>
+      <wheelPath>./medias/iicons/wheel.svg</wheelPath>
+      <activityColor>A0A0FFC0</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+		</controllerActivity>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.955 0.012</pos>
+      <pos verticalScreen="true">0.9 0.013</pos>      
+      <size>0.033 0.0275</size>
+      <horizontalAlignment>right</horizontalAlignment>
+      <incharge>./medias/images/battery/incharge.svg</incharge>
+      <full>./medias/images/battery/full.svg</full>
+      <at75>./medias/images/battery/75.svg</at75>
+      <at50>./medias/images/battery/50.svg</at50>
+      <at25>./medias/images/battery/25.svg</at25>
+      <empty>./medias/images/battery/empty.svg</empty>
+      <planemodeIcon>./medias/icons/Planemode.png</planemodeIcon>
+      <color>FFFFFFA0</color>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator" tinyScreen="true">
+      <pos>0.915 0.013</pos>
+      <size>0.07 0.07</size>
+    </batteryIndicator>
+
+
+    <!-- Hide batteryIndicator and replace it with a stackpanel -->
+
+    <batteryIndicator name="batteryIndicator">
+      <visible>false</visible>
+    </batteryIndicator>
+    <stackpanel name="batteryIndicatorReplacement" extra="true">
+      <pos>0.70 0.012</pos>
+      <size>0.28 0.0275</size>
+      <pos verticalScreen="true">0.7 0.04</pos>
+      <size verticalScreen="true">0.28 0.023</size>
+      <orientation>horizontal</orientation>
+      <separator>2</separator>
+      <reverse>true</reverse>
+      <batteryText name="ss.batterytext">
+        <fontSize>0.019</fontSize>
+        <fontSize tinyScreen="true">0.025</fontSize>
+        <color>FFFFFFA0</color>
+        <padding>4 0</padding>
+      </batteryText>
+      <batteryIcon name="ss.battery">
+        <incharge>./medias/images/battery/incharge.svg</incharge>
+        <full>./medias/images/battery/full.svg</full>
+        <at75>./medias/images/battery/75.svg</at75>
+        <at50>./medias/images/battery/50.svg</at50>
+        <at25>./medias/images/battery/25.svg</at25>
+        <empty>./medias/images/battery/empty.svg</empty>
+        <planemodeIcon>./medias/icons/Planemode.png</planemodeIcon>
+        <maxSize>1 1</maxSize>
+        <linearSmooth>true</linearSmooth>
+        <padding>1 1</padding>
+        <color>FFFFFFA0</color>
+      </batteryIcon>
+      <text name="ss.separator1">
+        <text>-</text>
+        <fontSize>0.01</fontSize>
+        <color>00000000</color>
+      </text>
+      <networkIcon name="ss.network">
+        <networkIcon>./medias/icons/Network.png</networkIcon>
+        <planemodeIcon>./medias/icons/Planemode.png</planemodeIcon>
+        <maxSize>1 1</maxSize>
+        <linearSmooth>true</linearSmooth>
+        <padding>1 1</padding>
+        <color>FFFFFFA0</color>
+      </networkIcon>
+      <text name="ss.separator2">
+        <text>AAAA</text>
+        <fontSize>0.01</fontSize>
+        <color>00000000</color>
+      </text>
+      <text name="ss.cheevosUser" if="${global.cheevos}" tinyScreen="false">
+        <text>${global.cheevos.username}</text>
+        <alignment>center</alignment>
+        <fontSize>0.022</fontSize>
+        <fontSize tinyScreen="true">0.025</fontSize>
+        <color>FFFFFFA0</color>
+      </text>
+      <text name="ss.separator2">
+        <text>AA</text>
+        <fontSize>0.01</fontSize>
+        <color>00000000</color>
+      </text>
+      <webImage name="ss.cheevosUserPic" if="${global.cheevos}" tinyScreen="false">
+        <visible>{global:cheevos}</visible>
+        <linearSmooth>true</linearSmooth>
+        <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+        <maxSize>1 1</maxSize>
+        <color>FFFFFFFF</color>
+      </webImage>
+    </stackpanel>
+    <stackpanel name="batteryIndicatorReplacement" extra="true" tinyScreen="true">
+      <pos>0.708 0.015</pos>
+      <size>0.28 0.06</size>
+    </stackpanel>
+
+  </view>
+
+
+
+  <subset name="VUE">
+        <include subset="SYSTEMS_VUE" name="dbz-wallpapers-droite-boules">./systemviews/dbzdw.xml</include>
+        <include subset="SYSTEMS_VUE" name="dbz-videos-droite-boules">./systemviews/dbzdv.xml</include>
+        <include subset="SYSTEMS_VUE" name="dbz-wallpapers-gauche-boules">./systemviews/dbzgw.xml</include>
+        <include subset="SYSTEMS_VUE" name="dbz-videos-gauche-boules">./systemviews/dbzgv.xml</include>
+        <include subset="SYSTEMS_VUE" name="dbz-wallpapers-droite-capsules">./systemviews/dbzdwC.xml</include>
+        <include subset="SYSTEMS_VUE" name="dbz-videos-droite-capsules">./systemviews/dbzdvC.xml</include>
+        <include subset="SYSTEMS_VUE" name="dbz-wallpapers-gauche-capsules">./systemviews/dbzgwC.xml</include>
+        <include subset="SYSTEMS_VUE" name="dbz-videos-gauche-capsules">./systemviews/dbzgvC.xml</include>
+       
+  </subset> 
+
+	<subset name="gamelist_logo">
+		<include subset="gamelist_logo" name="logo-nuages">./views/gamelist_logo.xml</include>
+		<include subset="gamelist_logo" name="logo-capsules">./views/gamelist_logoC.xml</include>
+		<include subset="gamelist_logo" name="Off"></include>
+	</subset>
+
+
+
+  <subset name="Ambiances">
+   <include name="no"/>
+   <include name="DBZ1">./sonores/DBZ1.xml</include>
+   <include name="DBZ2">./sonores/DBZ2.xml</include>
+   <include name="DBZ3">./sonores/DbZ3.xml</include>
+   <include name="DBZ4">./sonores/DBZ4.xml</include>
+   <include name="DBZ5">./sonores/DBZ5.xml</include>
+   <include name="DBZ6">./sonores/DBZ6.xml</include>
+   <include name="DBZ7">./sonores/DBZ7.xml</include>
+   <include name="DBZ8">./sonores/DBZ8.xml</include>
+  </subset>
+
+ 	                                                
+  <subset name="bouton-menu">
+        <include name="icons DBZ">./medias/iconsets/dbz.xml</include>
+        <include name="icons arcade">./medias/iconsets/arcade.xml</include>
+        <include name="icons blanc">./medias/iconsets/blanc.xml</include>
+	<include name="icons psx">./medias/iconsets/psx.xml</include>
+	<include name="icons psx1">./medias/iconsets/psx1.xml</include>
+	<include name="icons snes">./medias/iconsets/snes.xml</include>
+        <include name="icons xbox">./medias/iconsets/xbox.xml</include>	
+	<include name="icons xboxone">./medias/iconsets/xboxone.xml</include>
+        <include name="icons switch">./medias/iconsets/switch.xml</include>
+	       
+        	
+  </subset>
+
+ 
+
+<subset name="son boutons">
+
+          <include subset="sound" name="Jeux">./medias/sound/1Up.xml</include>
+	  <include subset="sound" name="KAMEHA">./medias/sound/KAMEHA.xml</include>
+	  <include subset="sound" name="Fusion">./medias/sound/FUSION.xml</include>
+          <include subset="sound" name="KI">./medias/sound/DragonBallKI.xml</include>
+	  <include subset="sound" name="Nuage_magique_1">./medias/sound/FlyingNymbus.xml</include>
+          <include subset="sound" name="Nuage_magique_2">./medias/sound/Nimbusdbz.xml</include>
+          <include subset="sound" name="Kaioken">./medias/sound/SonGokuKaioKen.xml</include>
+          <include subset="sound" name="Teleportation">./medias/sound/TELEPORTATION.xml</include>
+          <include subset="sound" name="Final-flash">./medias/sound/VegetaFINALFLASH.xml</include>
+          <include subset="sound" name="radardbz">./medias/sound/radardbz.xml</include>	  
+
+  </subset>
+
+<!-- Shader -->
+    <include subset="Shader" name="off">./medias/shader/off.xml</include>
+    <include subset="Shader" name="crt">./medias/shader/crt.xml</include>
+    <include subset="Shader" name="scanlines1">./medias/shader/scanlines.xml</include>
+    <include subset="Shader" name="scanlines2">./medias/shader/scanlines3.xml</include>
+    <include subset="Shader" name="scanlines3">./medias/shader/scanlines4.xml</include>
+    <include subset="Shader" name="scanlines4">./medias/shader/scanlines5.xml</include>
+    <include subset="Shader" name="scanlines5">./medias/scanlines10.xml</include>
+    <include subset="Shader" name="éclairs">./medias/shader/effect_glitch.xml</include>
+    <include subset="Shader" name="glitch">./medias/shader/effect_glitch1.xml</include>
+    <include subset="Shader" name="vhs">./medias/shader/effect_vhs_glitch.xml</include>
+
+
+<!-- Gamelist -->
+	<include>./views/video.xml</include>
+	<include>./views/detailed.xml</include>
+	<include>./views/gamecarousel.xml</include>
+	<include>./views/gamecarouseldetails.xml</include>
+	<include>./views/grid.xml</include>
+
+
+
+
+  </theme>

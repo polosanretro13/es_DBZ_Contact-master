@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+## THEME DBZ 2022 ##
+
+
+
+version: EMULSTATION superieur
+auteur: "POLOSANRETRO"
+license: POLOSANRETRO
+
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="splash">
+
+    <splash name="splash">
+      <backgroundColor>202020FF</backgroundColor>
+    </splash>
+   
+    <image name="progressbar">
+      <color>BFBF00BF</color>
+	  <pos>0.27 0.768</pos>
+	  <origin>0 0</origin>
+	  <zIndex>95</zIndex>
+    </image>
+
+    <image name="progressbar:active">
+      <color>DF2000DF</color>
+	  <zIndex>95</zIndex>
+    </image>
+   
+    <image name="background">
+      <size>1 1</size>
+	  <pos>0 0</pos>
+      <origin>0 0</origin>
+	  <path>./medias/logo/DBZ-contact.jpg</path>
+    </image>
+
+    <text name="label">
+      <fontPath>./medias/knight-rider.TTF</fontPath>
+      <color>32CD32</color>
+	  <pos>0.02 0.688</pos>
+	  <origin>0 0</origin>
+      <glowColor>000000df</glowColor>
+      <glowSize>1</glowSize>
+	  <forceUppercase>true</forceUppercase>
+    </text>
+
+    <text name="mylabel" extra="true">
+      <fontPath>./medias/DragonForcE.TTF</fontPath>
+      <fontSize>0.15</fontSize>
+	  <color>ff9933DF</color>
+	  <pos>0.5 0.028</pos>
+	  <origin>0.5 0</origin>
+      <glowColor>ce1126df</glowColor>
+      <glowSize>2</glowSize>
+	  <forceUppercase>true</forceUppercase>
+	  <text>DBZ CONTACT</text>
+    </text>
+	
+  </view>
+</theme>
