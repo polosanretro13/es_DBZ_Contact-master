@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		MeGaMax+PlusBook-master /polosanretro
+author:			Polosanretro
+
+-->
+<theme>
+<formatVersion>7</formatVersion>
+
+<include>./../desc/${system.theme}/custom.xml</include>
+
+	<variables>
+  
+	
+		<x.right.color>ffffff</x.right.color>
+		<x.right.colorEnd>ffffff</x.right.colorEnd>
+		<x.right.gradientType>vertical</x.right.gradientType>
+		<x.right.reflexion>0 0</x.right.reflexion>
+
+	
+
+		<x.right2.color>ffffff</x.right2.color>
+		<x.right2.colorEnd>ffffff</x.right2.colorEnd>
+		<x.right2.gradientType>vertical</x.right2.gradientType>
+		<x.right2.reflexion>0 0</x.right2.reflexion>
+		
+
+
+		<x.right.visible>true</x.right.visible>
+		<x.right2.visible>true</x.right2.visible>
+		
+	</variables>
+
+
+	<include>./art/animations/OUT_SETTINGS.xml</include>
+	<include>./art/animations/OUT_SETTINGS_alt/OUT_SETTINGS.xml</include>
+
+	<include>./art/animations/right_out/shift/shift_${out.right.shift}.xml</include>
+
+
+
+	<include>./SETTINGS.xml</include>
+	
+	<include>./art/animations/animation_set.xml</include>
+
+
+
+
+
+
+
+<view name="system">
+
+
+	   <image name="wallpapers1" extra="true">
+               <default>./medias/default/_inc/default.jpg</default> 
+         <path>./medias/wallpapers/${system.theme}.jpg</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+			<zIndex>1</zIndex>
+		</image> 
+
+	<text name="logoText" extra="true">
+<pos>0.165 0.2766</pos>
+	<color>c220b1</color>
+<maxSize>0.34 0.16</maxSize>
+<fontPath>./medias/fonts/BannerBox2.ttf</fontPath>
+<fontSize>0.03</fontSize>
+<text>${system.fullName}</text>
+         <rotation>0</rotation> 
+        <zIndex>42</zIndex>
+</text>
+
+			<image name="art_03" extra="true">
+			<path>./medias/bousole.png</path>
+			<origin>1 0.5</origin>
+                                 <pos>0.15 0.18</pos>
+		<size>0.07 0.10</size>
+		                <zIndex>1000</zIndex>
+
+			</image>
+
+
+			<image name="art_02" extra="true">
+          <path>./medias/default/_inc/char.png</path>
+			<path>./medias/persosDBZ/${system.theme}.png</path>
+			<origin>1 0.5</origin>
+                                 <pos>0.941 0.40</pos>
+		<size>0.127 0.36</size>
+		                <zIndex>998</zIndex>
+		<storyboard>
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+			</image>
+
+	   <image name="logos" extra="true">
+         <origin>0.5 0.5</origin>
+         <size>0.22 0.52</size>
+<pos>0.520 0.69</pos>
+          <path>./medias/capsulenuage/default.png</path>
+          <path>./medias/capsulenuage/${system.theme}.png</path>
+         <zIndex>43</zIndex>
+	  <sound>./medias/sound/Nimbusdbz.wav</sound>
+<delay>0</delay>
+		<storyboard>
+				<animation property="scale" from="0" to="1" begin="120" duration="1475" mode="EaseOut"/>
+        		<animation property="y" to="0.5" begin="2800" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.5" begin="300" autoreverse="true" duration="8450" repeat="forever" mode="easyIn"/>
+
+		</storyboard>
+
+      </image>
+	
+
+
+	   <image name="consoles" extra="true">
+         <origin>0 0</origin>
+         <pos>0.830 0.70</pos>
+         <size>0.14 0.17</size>
+          <path>./medias/default/_inc/consoles.png</path>
+         <path>./medias/retro/${system.theme}.png</path>
+         <zIndex>42</zIndex>
+      </image>
+
+	   <image name="cadresayan" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0.62</pos>
+         <size>0.280 0.280</size>
+         <path>./medias/radarsayan.png</path>
+         <zIndex>40</zIndex>
+<rotation>-1</rotation>
+      </image>
+
+	   <image name="cadresayan2" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0.62</pos>
+         <size>0.280 0.280</size>
+         <path>./medias/radarsayan.png</path>
+         <zIndex>38</zIndex>
+<rotation>-1</rotation>
+      </image>
+
+
+	   <image name="oeil1" extra="true">
+         <origin>0 0</origin>
+         <pos>0.30 0.626</pos>
+         <size>0.200 0.200</size>
+         <path>./medias/default/regard2.png</path>
+         <zIndex>41</zIndex>
+      </image>
+
+	   <image name="oeil" extra="true">
+         <origin>0 0</origin>
+         <pos>0.06 0.626</pos>
+         <size>0.200 0.200</size>
+         <path>./medias/default/regard3.png</path>
+         <zIndex>39</zIndex>
+      </image>
+
+	   <image name="ecrisayan" extra="true">
+         <origin>0 0</origin>
+         <pos>0.143 0.72</pos>
+         <size>0.07 0.12</size>
+         <path>./medias/acanoyde.png</path>
+         <zIndex>40</zIndex>
+		<storyboard>
+ 
+        		<animation property="scale" to="1.02" begin="0" autoreverse="true" duration="300" repeat="forever" mode="bump"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+      </image>
+
+
+	   <image name="fond1" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.560 0</pos>
+         <size>1.15 3</size>
+         <path>./medias/1223.png</path>
+         <zIndex>40</zIndex>
+      </image>
+
+
+	   <image name="cadredia" extra="true">
+         <origin>0.5 0.5</origin>
+		<pos>0.185 0.4364</pos>
+         <size>0.370 0.250</size>
+         <path>./medias/cadrediadbz.png</path>
+         <zIndex>41</zIndex>
+      </image>
+
+	   <image name="maskcad" extra="true">
+         <origin>0.5 0.5</origin>
+		<pos>0.185 0.437</pos>
+         <size>0.357 0.215</size>
+         <path>./medias/mask.png</path>
+         <zIndex>40</zIndex>
+      </image>
+
+	   <image name="pcadredia" extra="true">
+         <origin>0.5 0.5</origin>
+		<pos>0.3147 0.458</pos>
+         <size>0.08 0.157</size>
+         <path>./medias/mkaio.png</path>
+         <zIndex>41</zIndex>
+      </image>
+
+	   <image name="padredia" extra="true">
+         <origin>0.5 0.5</origin>
+		<pos>0.272 0.40</pos>
+         <size>0.05 0.05</size>
+         <path>./medias/barre.png</path>
+         <zIndex>41</zIndex>
+<rotation>2</rotation>
+		<storyboard>
+ 
+        		<animation property="scale" to="1.5" begin="1800" autoreverse="true" duration="300" repeat="forever" mode="bump"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+      </image>
+
+<text name="info2" extra="true">
+   		<fontPath>./medias/fuentes/Dragon Ball.ttf</fontPath>
+        <color>39CAD5</color>
+        <alignment>left</alignment>
+        <fontSize>0.023</fontSize>
+        <lineSpacing>1</lineSpacing>
+		<size>0.35 0</size>
+		<pos>0.035 0.4</pos>
+		<zIndex>0</zIndex>
+      </text>
+
+	<text name="info1" extra="true">
+		<fontPath>./medias/fuentes/Dragon Ball.ttf</fontPath>
+		<color>32CD32</color>
+		<alignment>left</alignment>
+		<fontSize>0.020</fontSize>
+		<lineSpacing>1</lineSpacing>
+		<size>0.254 0</size>
+		<pos>0.025 0.4</pos>
+		<glowColor>00000016</glowColor>
+		<glowSize>1</glowSize>
+		<zIndex>42</zIndex>
+      </text> 
+
+	   <image name="fcapsule" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.265 0.1382</pos>
+         <size>0.15 0.22</size>
+         <path>./medias/capsulecorps0.png</path>
+         <zIndex>40</zIndex>
+		<storyboard>
+        		<animation property="y" from="-1.5" begin="0.3" duration="2000" mode="linear"/>
+        		<animation property="scale" to="1.02" begin="0" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+        		<animation property="rotation" to="1.5" begin="90" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+      </image>
+
+
+	<text name="info3" extra="true">
+		<fontPath>./medias/fuentes/Dragon Ball.ttf</fontPath>
+		<color>FDEE00</color>
+		<alignment>left</alignment>
+		<fontSize>0.023</fontSize>
+		<lineSpacing>1</lineSpacing>
+		<size>0.35 0</size>
+		<pos>0.039 0.378</pos>
+		<glowColor>00000016</glowColor>
+		<glowSize>1</glowSize>
+		<zIndex>42</zIndex>
+      </text>
+
+	<text name="info4" extra="true">
+		<fontPath>./medias/fuentes/Dragon Ball.ttf</fontPath>
+		<color>FDEE00</color>
+		<alignment>left</alignment>
+		<fontSize>0.023</fontSize>
+		<lineSpacing>1</lineSpacing>
+		<size>0.35 0</size>
+		<pos>0.145 0.378</pos>
+		<glowColor>00000016</glowColor>
+		<glowSize>1</glowSize>
+		<zIndex>42</zIndex>
+      </text>
+
+
+		<text name="info5" extra="true">
+			<text>FABRICANTE:</text>
+		</text>
+
+		<text name="info5" extra="true" region="PTBR">
+			<text>FABRICANTE:</text>
+		</text>
+		
+				<text name="info5" extra="true" region="EN">
+			<text>MANUFACTURER:</text>
+		</text>
+		
+				<text name="info5" extra="true" region="ES">
+			<text>FABRICANTE:</text>
+		</text>
+		
+				<text name="info5" extra="true" region="FR">
+			<text>FABRICANT:</text>
+		</text>
+
+	<text name="info5" extra="true">
+		<fontPath>./medias/fuentes/Dragon Ball.ttf</fontPath>
+		<color>32CD32</color>
+		<alignment>left</alignment>
+		<fontSize>0.023</fontSize>
+		<lineSpacing>1</lineSpacing>
+		<size>0.35 0</size>
+		<pos>0.079 0.378</pos>
+		<glowColor>00000016</glowColor>
+		<glowSize>1</glowSize>
+		<zIndex>42</zIndex>
+      </text>
+
+
+		<text name="info6" extra="true">
+<visible>false</visible>
+		</text>
+
+		<text name="info6" extra="true" region="PTBR">
+<visible>false</visible>
+		</text>
+		
+				<text name="info6" extra="true" region="EN">
+<visible>false</visible>
+		</text>
+		
+				<text name="info6" extra="true" region="ES">
+<visible>false</visible>
+		</text>
+		
+				<text name="info6" extra="true" region="FR">
+<visible>false</visible>
+		</text>
+
+	<text name="info6" extra="true">
+<visible>false</visible>
+      </text>
+
+
+
+		<video name="backgroundvideo" extra="true">
+       <default>./medias/default/_inc/default.mp4</default> 
+	     <path>{random}</path> 
+         <pos>0.0632 0.657</pos>
+         <size>0.2126 0.230</size>
+         <origin>0 0</origin>
+         <delay>0</delay>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      <loops>1</loops>
+      <roundCorners>0.02</roundCorners>
+		 <zIndex>39</zIndex>
+		 </video>
+
+    <image name="randomImage" extra="true">
+ <visible>false</visible> 
+    </image>
+
+
+	   <image name="Njeux" extra="true">
+         <origin>0.5 0.5</origin>
+		<pos>0.21 0.95</pos>
+         <size>0.260 0.097</size>
+         <path>./medias/gokukame.png</path>
+         <zIndex>43</zIndex>
+		<storyboard>
+        		<animation property="scale" to="1.0025" begin="0" autoreverse="true" duration="250" repeat="forever" mode="bump"/>
+        		<animation property="color" to="999999" begin="0" autoreverse="true" duration="5" repeat="forever" mode="linear"/>
+        		<animation property="colorEnd" to="ff9999" begin="0" autoreverse="true" duration="6000" repeat="forever" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+      </image>
+
+
+<text name="systemInfo">
+        <pos>-0.2 0.9212</pos>
+		<backgroundColor>00000000</backgroundColor>
+		<color>39CAD5</color>
+		<glowColor>606060</glowColor>
+		<glowOffset>1</glowOffset>
+		<glowSize>2</glowSize>
+		<reflexion>0.20 0</reflexion>
+    <fontPath>./medias/gomarice_no_continue.ttf</fontPath>
+	<fontSize>0.02</fontSize>
+				<storyboard>
+        		<animation property="reflexion" from="0 0" begin="350" duration="350" mode="easeOut"/>
+        		<animation property="scale" to="1.05" begin="0" duration="200" autoreverse="true" repeat="forever" mode="easeOut"/>
+        		<animation property="opacity" from="0" to="0" duration="1300" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" begin="1300" duration="350" mode="linear"/>
+		</storyboard>
+    <zIndex>1002</zIndex>	     
+</text>
+
+
+
+
+      <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+		<origin>1 0</origin>
+        <pos>0.998 -0.01</pos>
+		<size>0.382 1</size>
+        <logoScale>1.559895832</logoScale>
+        <logoSize>0.13 0.13</logoSize>
+        <color>00000000</color>
+		<logoRotation>-25</logoRotation>
+		<logoRotationOrigin>2.581 0.5</logoRotationOrigin>
+		<logoAlignment>left</logoAlignment>
+        <maxLogoCount>9</maxLogoCount>
+		<zIndex>75</zIndex>
+		<defaultTransition>instant</defaultTransition>
+		</carousel>
+
+
+		<image name="logo, logo1">
+          <path>./medias/capsules/default.png</path>
+	<path>./medias/capsules/${system.theme}.png</path>
+			<linearSmooth>true</linearSmooth>
+
+	</image>
+
+
+		<image name="avatar2, avatar3, avatar4, avatar5" extra="static">
+			<origin>0 0</origin>
+		<size>0.38 0.70</size>
+                                 <pos>0.725 0.04456</pos>
+			<linearSmooth>true</linearSmooth>
+			<scale>0.8</scale>
+			<opacity>0</opacity>
+			<zIndex>996</zIndex>
+		</image>
+		 <image name="avatar2" extra="static">
+			<path>./medias/energy/avatar-light1.png</path>
+			<opacity>1</opacity>
+			<storyboard>
+
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+				<animation property="opacity" begin="200" to="1" duration="300" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="opacity" begin="800" to="0" duration="300" repeat="forever"/>
+			</storyboard>
+		</image>
+		<image name="avatar3" extra="static">
+			<path>./medias/energy/avatar-light2.png</path>
+			<zIndex>998</zIndex>
+			<storyboard>
+
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+				<animation property="opacity" begin="200" to="1" duration="300" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="opacity" begin="400" to="0" duration="300" repeat="forever"/>
+				<animation property="opacity" begin="600" to="0" duration="300" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="opacity" begin="800" to="0" duration="300" repeat="forever"/>
+			</storyboard>
+		</image>
+		<image name="avatar4" extra="static">
+			<path>./medias/energy/avatar-light3.png</path>
+			<storyboard>
+
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+				<animation property="opacity" begin="400" to="1" duration="400" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="opacity" begin="600" to="0" duration="600" repeat="forever"/>
+				<animation property="opacity" begin="800" to="0" duration="800" autoreverse="true" repeat="forever" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="avatar5" extra="static">
+			<path>./medias/energy/avatar-light4.png</path>
+			<zIndex>998</zIndex>
+			<storyboard>
+
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+				<animation property="opacity" begin="600" to="1"  duration="600" autoreverse="true" repeat="forever" mode="linear"/>
+				<animation property="opacity" begin="800" to="0" duration="800" repeat="forever"/>
+			</storyboard>
+		</image>
+		
+
+		<image name="avatar6, avatar7, avatar8" extra="static">
+			<origin>0 0</origin>
+			<linearSmooth>true</linearSmooth>
+			<opacity>0</opacity>
+			<scale>0.8</scale>
+			<zIndex>998</zIndex>
+<storyboard>
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+        		<animation property="opacity" begin="1000" from="0" to="1" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" begin="4000" to="0" duration="0" repeat=" forever"/>
+</storyboard>
+		</image>
+		<image name="avatar6" extra="static">
+		<size>0.23 0.44</size>
+                                 <pos>0.774 0.247</pos>
+			<path>./medias/energy/avatar-eclair.png</path>
+			<storyboard>
+
+
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+        		<animation property="opacity" begin="1000" from="0" to="1" duration="100" autoreverse="true" repeat="5" mode="linear"/>
+				<animation property="opacity" begin="4000" to="0" duration="0" repeat="forever"/>
+			</storyboard>
+		</image>
+		<image name="avatar7" extra="static">
+		<size>0.23 0.44</size>
+                                 <pos>0.774 0.287</pos>
+			<path>./medias/energy/avatar-eclairmini.png</path>
+			<storyboard>
+
+
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+        		<animation property="opacity" begin="3000" from="0" to="1" duration="100" autoreverse="true" repeat="3" mode="linear"/>
+				<animation property="opacity" begin="3000" to="0" duration="0" repeat="forever"/>
+			</storyboard>
+		</image>
+		<image name="avatar8" extra="static">
+		<size>0.23 0.44</size>
+                                 <pos>0.774 0.247</pos>
+			<path>./medias/energy/avatar-eclairmini.png</path>
+			<rotation>-999</rotation>
+			<storyboard repeat="forever">
+
+
+        		<animation property="x" from="1.5" begin="0" duration="1800" mode="linear"/>
+
+        		<animation property="opacity" begin="2000" from="0" to="1" duration="100" autoreverse="true" repeat="3" mode="linear"/>
+				<animation property="opacity" begin="3000" to="0" duration="0"/>
+			</storyboard>
+		</image>
+
+
+	   </view>
+
+  
+
+
+</theme>
