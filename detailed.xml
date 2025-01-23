@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+
+
+    <view name="detailed">
+
+	<helpsystem name="help">
+      <textColor>fffc00</textColor>
+      <iconColor>ff0000</iconColor>
+	  <fontPath>./medias/conthrax-sb.ttf</fontPath>
+	  <fontSize>0.025</fontSize>
+	  <pos>0.005 0.955</pos>
+         <zindex>45</zindex>
+    </helpsystem>
+
+
+		<image name="basfond" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./medias/fonbasG.jpg</path>
+		 <zIndex>43</zIndex>
+		</image>
+		
+		<text name="md_description">
+	    <pos>0.75 0.75</pos>
+        <size>0.20 0.206</size>
+		<color>ffffff</color>
+		<glowColor>101010</glowColor>		
+		<glowSize>1</glowSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./medias/conthrax-sb.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+         <pos>0.028 0.064</pos>
+         <size>0.6 0.080</size>
+         <filledPath>./medias/logo/Hatchet-icon-1.png</filledPath>
+         <unfilledPath>./medias/logo/Hatchet-icon-0.png</unfilledPath>
+		 <zIndex>42</zIndex>
+      </rating>
+
+	   <image name="cadresayan2" extra="true">
+        <pos>0 </pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+         <path>./medias/radarsayanqq1.png</path>
+			<opacity>1</opacity>
+         <zIndex>44</zIndex>
+		</image>	
+
+    <video name="md_video">
+<path>{random}</path>
+       <default>./medias/default/_inc/default.mp4</default>      
+      <pos>0.772 0.3054</pos>
+      <size>0.352 0.28</size>
+      <origin>0.5 0.5</origin>
+      <delay>0.01</delay>
+<opacity>1</opacity>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <roundCorners>0.02</roundCorners>
+      <zIndex>40</zIndex>
+    </video>
+
+		<image name="basfond" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./medias/fonbasG.jpg</path>
+		 <zIndex>43</zIndex>
+		</image>	
+
+        <image name="backgroundfond" extra="true">
+        <pos>0 </pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <path>./medias/fonddbzG1.png</path>
+        </image>
+
+
+        <image name="bouleanime" extra="true">
+        <pos>0.315 0.25</pos>
+        <origin>0 0</origin>
+        <size>0.14 0.1811</size>
+        <path>./medias/boulecrystal1.png</path>
+		<storyboard>
+        		<animation property="rotation" to="802" begin="0" autoreverse="false" duration="8800" repeat="forever" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+
+        </image>
+
+        <image name="vaisseau1" extra="true">
+        <pos>0.22 0.20</pos>
+        <origin>0 0</origin>
+        <size>0.2 0.188</size>
+        <path>./medias/vaisseau1.png</path>
+		<storyboard>
+        		<animation property="y" to="0.67" begin="2800" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+        		<animation property="x" to="0.58" begin="300" autoreverse="true" duration="8450" repeat="forever" mode="easyIn"/>
+        		<animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+
+        </image>
+
+
+	<textlist name="gamelist">
+	    <pos>0.046 0.16</pos>
+        <size>0.18 0.57</size>
+        <selectorColor>FFFFFFFF</selectorColor>
+        <selectedColor>fd0200</selectedColor>
+        <primaryColor>fffc00</primaryColor>
+        <secondaryColor>ff0000</secondaryColor>
+        <fontPath>../medias/fonts/BannerBox2.ttf</fontPath>
+        <fontSize>0.027</fontSize>
+        <alignment>left</alignment>
+		<lineSpacing>1.100</lineSpacing>
+		<scrollSound>./sounds/scroll.ogg</scrollSound>
+      </textlist>
+
+  
+	   <image name="logos" extra="true">
+         <origin>0.5 0.5</origin>
+         <size>0.19 0.09</size>
+      <pos>0.69 0.10</pos>
+          <path>./medias/capsules/default.png</path>
+          <path>./medias/capsules/${system.theme}.png</path>
+  <reflexion>0.12 0.0</reflexion>
+ <reflexionOnFrame>true</reflexionOnFrame>
+         <zIndex>43</zIndex>
+
+      </image>
+
+
+    <text name="md_publisher, md_releasedate, md_players">
+      <storyboard>
+        <animation property="opacity" from="0" duration="350" mode="easeOut"/>
+      </storyboard>
+    </text>
+    -->
+    <text name="md_publisher, md_releasedate, md_players">
+      <color>969696</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./medias/fonts/BannerBox2.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+    <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_releasedate, md_lbl_genre">
+      <pos>1 1</pos>
+    </text>
+
+    <text name="md_developer">
+      <storyboard>
+        <animation property="opacity" from="0" duration="350" mode="easeOut"/>
+      </storyboard>
+    </text>
+
+    <text name="md_developer">
+      <color>c220b1</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./medias/conthrax-sb.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+    <text name="md_lbl_developer">
+      <pos>1 1</pos>
+    </text>
+
+
+
+<image name="md_cheevos,md_notcheevos">
+<origin>0.5 1</origin>
+<path>./medias/icons/contest.png</path>
+<pos>0.872 0.42</pos>
+<maxSize>0.02 0.03</maxSize>     
+<color>ffffff</color>
+<zIndex>43</zIndex>
+</image>
+    
+    
+<image name="md_cheevos">
+<animation property="opacity" to="0" autoreverse="true" repeat="forever" duration="0" mode="Linear"/>
+</image>
+
+		<datetime name="md_releasedate">
+			<origin>0.5 1</origin>
+			<pos>0.98 0.68</pos>
+			<size>0.1 0.0222222222222222</size>
+			<rotation>-90</rotation>
+			<alignment>left</alignment>
+			<format>%Y</format>
+		<fontPath>./medias/conthrax-sb.ttf</fontPath>
+			<fontSize>0.0254444444444444</fontSize>
+			<color>666666</color>
+			<zIndex>180</zIndex>
+			<zIndex>9002</zIndex>
+		</datetime>
+		<image name="md_flag">
+			<origin>0.5 0</origin>
+			<pos>0.98 0.78</pos>
+			<maxSize>0.02 0.05</maxSize>
+			<color>ffffff</color>
+			<zIndex>9002</zIndex>
+		</image>
+
+		<text name="md_players">
+			<pos>0.98 0.37</pos>
+			<size>0.03 0.03</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./medias/conthrax-sb.ttf</fontPath>
+			<text>1</text>
+			<alignment>center</alignment>
+			<fontSize>0.034</fontSize>
+			<color>666666</color>
+			<zIndex>9002</zIndex>
+		</text>
+		<image name="md_manual,md_nomanual">
+			<pos>0.98 0.42</pos>
+			<path>./medias/icons/book.png</path>
+			<maxSize>0.02 0.03</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>ffffff</color>
+			<zIndex>9002</zIndex>
+		</image>
+		<image name="md_nomanual">
+			<color>dddddd</color>
+		</image>
+
+		<image name="md_cheevos,md_notcheevos">
+			<origin>0.5 0.5</origin>
+			<path>./medias/icons/contest.png</path>
+			<pos>0.98 0.47</pos>
+			<maxSize>0.02 0.03</maxSize>
+			<color>ffffff</color>
+			<zIndex>9002</zIndex>
+		</image>
+		<image name="md_notcheevos">
+			<color>dddddd</color>
+		</image>
+
+		<image name="md_savestate,md_nosavestate">
+			<origin>0.5 0.5</origin>
+			<path>./medias/icons/SaveState.png</path>
+			<pos>0.98 0.52</pos>
+			<y ifCheevos="false">0.47</y>
+			<maxSize>0.02 0.03</maxSize>
+			<color>ffffff</color>
+			<zIndex>9002</zIndex>
+		</image>
+		<image name="md_nosavestate">
+			<color>80808030</color>
+		</image>
+
+<image name="md_hiddenExtra" extra="true">
+<origin>0.5 1</origin>
+<pos>0.98 0.67</pos>
+<path>./medias/icons/hidden.png</path>
+<maxSize>0.02 0.03</maxSize>
+<color>ffffffff</color>
+<zIndex>9002</zIndex>
+</image>
+
+<image name="md_hidden">
+<origin>0.5 1</origin>
+<pos>0.98 0.67</pos>
+<path>./medias/icons/hidden.png</path>
+<maxSize>0.02 0.03</maxSize>
+<color>ffffff</color>
+<zIndex>9002</zIndex>
+</image>
+
+
+		<image name="md_kidgame,md_notkidgame">
+			<pos>0.98 0.57</pos>
+			<path>./medias/icons/kid.png</path>
+			<maxSize>0.02 0.03</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>ffffff</color>
+			<zIndex>9002</zIndex>
+		</image>
+		<image name="md_notkidgame"> 
+			<color>dddddd</color>
+		</image>
+    <!--
+    <image name="md_favorite">
+      <pos>0.88 0.42</pos>
+      <maxSize>0.02 0.03</maxSize>      
+      <path>./medias/icons/favorite.png</path>
+      <origin>0.5 0.5</origin>
+      <color>ffffff</color>
+      <zIndex>43</zIndex>
+    </image>-->
+
+	   <image name="cadresayan4" extra="true">
+        <pos>0 </pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+         <path>./medias/radarsayanqq2.png</path>
+			<opacity>0.8</opacity>
+         <zIndex>44</zIndex>
+		</image>	
+
+	   <image name="cadresayan5" extra="true">
+        <pos>0 </pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+         <path>./medias/radarsayanqq3.png</path>
+			<opacity>0.8</opacity>
+         <zIndex>44</zIndex>
+		</image>	
+
+
+    <image name="md_thumbnail">
+      <pos>0.68 0.8</pos>
+<maxSize>0.155 0.234</maxSize>
+      <origin>0.5 0.5</origin>
+      <color>ffffff</color>
+      <zIndex>43</zIndex>
+    </image>
+
+  
+  </view> 
+   
+   </theme>
