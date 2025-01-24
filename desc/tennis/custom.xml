@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Tennis, a tennis video game released in 1972 on the first video game console in history, the Magnavox Odyssey
+as well as a game that will bring back memories, the famous Pong. This tennis game where the ball was a pixel and the bars on each side of the screen symbolized the rackets.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Tennis, un jeu vidéo de tennis sorti en 1972 sur la première console de jeux vidéo de l'histoire, la Magnavox Odyssey
+ainsi qu’un jeu qui rappellera des souvenirs, le fameux Pong. Ce jeu de tennis où la balle était un pixel et les barres de chaque côté de l’écran symbolisaient les raquettes.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Tennis</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Tennis</text>
+		</text>		
+	</view>
+</theme>

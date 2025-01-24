@@ -1,0 +1,66 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>The V.Smile is a video game console with software developed for several age groups between 3 and 9 years old. Based on its educational function, the console offers many games derived from universes known to children, such as those of Disney or Dora the Explorer.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Visual Pinball is a freeware and source available video game engine for pinball tables and similar games. The software is composed of an editor and the simulator part itself. Also able to operate with Visual PinMAME, an emulator for ROM images from real pinball machines.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>La V.Smile es una videoconsola con software desarrollado para varios grupos de edades comprendidas entre los 3 y los 9 años. Basada en su función educativa, la consola ofrece varios juegos derivados de universos conocidos por los niños, como Disney o Dora la Exploradora. </text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>La V.Smile est une console de jeu vidéo offrant un logiciel élaboré pour plusieurs groupes d'âge situés entre 3 et 9 ans. S’appuyant sur sa fonction éducative, la console propose de nombreux jeux dérivés d'univers connus des enfants, comme ceux de Disney ou celui de Dora l'exploratrice. .</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Visual Pinball</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>2000</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Randy Davis</text>
+		</text>	
+
+		<text name="info5" extra="true">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+		
+				<text name="info5" extra="true"  region="PTBR">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+						<text name="info5" extra="true" region="EN">
+			<text>DEVELOPER:</text>
+		</text>
+						<text name="info5" extra="true" region="ES">
+			<text>DESARROLLADOR:</text>
+		</text>
+						<text name="info5" extra="true" region="FR">
+			<text>DÉVELOPPEUR:</text>
+		</text>			
+	</view>
+	
+		<customView name="HCoinSpin">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+
+
+	<customView name="CoinOps Details">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+	
+</theme>

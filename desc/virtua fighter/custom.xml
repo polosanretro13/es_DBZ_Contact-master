@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Virtua Fighter is a 3D fighting video game developed by Sega-AM2 on arcade machines, Saturn and 32X. It is the first episode of the Virtua Fighter series. Virtua Fighter is the first 3D fighting game, released in 1993 in arcades. Being a precursor, it has the particularity of being the only fighting game</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Virtua Fighter est un jeu vidéo de combat en 3D développé par Sega-AM2 sur borne d'arcade, sur Saturn et sur 32X. Il est le premier épisode de la série Virtua Fighter. Virtua Fighter est le premier jeu de combat en 3D, il sort en 1993 en arcade. Etant précurseur, il a la particularité d'être le seul jeu de combat</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Virtua Fighter</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1993</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Virtua Fighter</text>
+		</text>		
+	</view>
+</theme>

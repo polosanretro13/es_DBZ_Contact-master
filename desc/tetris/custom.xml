@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Tetris challenges the player to complete complete lines by moving pieces of different shapes, tetrominoes, which scroll from the top to the bottom of the screen. The completed lines disappear while earning points and the player can fill the freed spaces again. Tetris is a puzzle video game designed by Soviet engineer Aleksei Pajitnov from 1985 on Elektronika 60. When creating the concept, Pajitnov is helped by Dmitri Pavlovsky and Vadim Guerassimov for development.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Tetris met le joueur au défi de réaliser des lignes complètes en déplaçant des pièces de formes différentes, les tétrominos, qui défilent depuis le haut jusqu'au bas de l'écran. Les lignes complétées disparaissent tout en rapportant des points et le joueur peut de nouveau remplir les cases libérées.Tetris est un jeu vidéo de puzzle conçu par l'ingénieur soviétique Alekseï Pajitnov à partir de 1985 sur Elektronika 60..</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Tetris</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1984</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Tetris</text>
+		</text>		
+	</view>
+</theme>

@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>The ZX Spectrum (UK: /zɛd ɛks/) is an 8-bit home computer developed and marketed by Sinclair Research. Considered one of the most influential computers ever made, it is also one of the best-selling British computers ever, with over five million units sold.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Le ZX Spectrum est un petit ordinateur personnel mis sur le marché par le constructeur informatique anglais Sinclair Research en 1982. Basé sur le processeur Zilog Z80 tournant à 3,5 MHz, il est initialement équipé avec 16 ou 48 ko de mémoire vive.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>ZX Spectrum </text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1982</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>ZX Spectrum </text>
+		</text>		
+	</view>
+</theme>
