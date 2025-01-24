@@ -1,0 +1,41 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>Un shoot 'em up (aussi écrit shoot them up ou contracté en shmup ; littéralement « abattez-les tous ») est un genre de jeu vidéo dérivé du jeu d'action dans lequel le joueur dirige un véhicule ou un personnage devant détruire un grand nombre d'ennemis à l'aide de projectiles, au fur et à mesure des niveaux, tout en esquivant les projectiles adverses pour rester en vie</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>A shoot 'em up (also written shoot them up or contracted as shmup; literally "shoot them all down") is a genre of video game derived from the action game in which the player directs a vehicle or a character to destroy a large number of enemies using projectiles, as the levels progress, while dodging enemy projectiles to stay alive1.
+
+The game style of shoot 'em ups varies from cute to serious, from fantasy and science fiction to historical facts1.
+
+Shoot 'em up originated in arcades</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Un shoot 'em up (aussi écrit shoot them up ou contracté en shmup ; littéralement « abattez-les tous ») est un genre de jeu vidéo dérivé du jeu d'action dans lequel le joueur dirige un véhicule ou un personnage devant détruire un grand nombre d'ennemis à l'aide de projectiles, au fur et à mesure des niveaux, tout en esquivant les projectiles adverses pour rester en vie.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>shoot 'em up</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>shoot 'em up</text>
+		</text>		
+	</view>
+</theme>

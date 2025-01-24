@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Video game in which the player plays a hero responsible for accomplishing a mission, often perilous, through a complex scenario made up of a succession of puzzles whose resolution allows him to advance in the space and time of the game, throughout the discoveries, until the end of the adventure.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Jeu vidéo dans lequel le joueur incarne un héros chargé d'accomplir une mission, souvent périlleuse, à travers un scénario complexe constitué d'une succession d'énigmes dont la résolution lui permet d'avancer dans l'espace et le temps du jeu, au fil des découvertes, jusqu'à la fin de l'aventure.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>aventure </text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>aventure </text>
+		</text>		
+	</view>
+</theme>
