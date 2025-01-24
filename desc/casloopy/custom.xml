@@ -1,0 +1,59 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>La Loopy est une console à cartouches sortie uniquement au Japon. Le marketing ciblait principalement les joueuses avec une imprimante couleur thermique fournie avec et pouvant être utilisée pour créer des autocollants à partir de captures d'écran de jeu. Un accessoire optionnel, appelé Magical Shop, permet à la console de pouvoir utiliser un lecteur de DVD afin d'obtenir des images d'eux, d'ajouter du texte et de créer des autocollants personnalisés.</text>
+		</text>
+
+		
+				<text name="info1" extra="true" region="FR">
+			<text>La Loopy est une console à cartouches sortie uniquement au Japon. Le marketing ciblait principalement les joueuses avec une imprimante couleur thermique fournie avec et pouvant être utilisée pour créer des autocollants à partir de captures d'écran de jeu. Un accessoire optionnel, appelé Magical Shop, permet à la console de pouvoir utiliser un lecteur de DVD afin d'obtenir des images d'eux, d'ajouter du texte et de créer des autocollants personnalisés.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Visual Pinball</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>2000</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Randy Davis</text>
+		</text>	
+
+		<text name="info5" extra="true">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+		
+				<text name="info5" extra="true"  region="PTBR">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+						<text name="info5" extra="true" region="EN">
+			<text>DEVELOPER:</text>
+		</text>
+						<text name="info5" extra="true" region="ES">
+			<text>DESARROLLADOR:</text>
+		</text>
+						<text name="info5" extra="true" region="FR">
+			<text>DÉVELOPPEUR:</text>
+		</text>			
+	</view>
+	
+		<customView name="HCoinSpin">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+
+
+	<customView name="CoinOps Details">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+	
+</theme>

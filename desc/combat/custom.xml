@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>The fighting game (or fighting game in English), sometimes incorrectly called in France VS fighting (for versus fighting)1 or more colloquially baston game2, is a type of video game opposing a limited number of characters (two most often) .
+
+It differs from beat 'em all (or beat 'em up in Anglo-Saxon countries), which offers to fight long series of opponents and which is almost exclusively based on attack. The Neo-Geo AES is a console that has seen a lot of fighting games.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Tous vos jeux de combat réunie ici, Le jeu de combat (ou fighting game en anglais), parfois appelé abusivement en France VS fighting (pour versus fighting)1 ou plus familièrement jeu de baston2, est un genre de jeu vidéo opposant un nombre limité de personnages (deux le plus souvent).</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Fight</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Combat</text>
+		</text>		
+	</view>
+</theme>

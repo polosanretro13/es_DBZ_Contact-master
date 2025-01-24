@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>In games, you can race through the best motorcycle racing tracks in the world and challenge the best players in fierce competition. Finish races to get rewards to upgrade your bike or buy new ones.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Dans les jeux, vous pouvez arpenter les meilleures pistes de course de moto du monde et défier les meilleurs joueurs dans une compétition acharnée. Finissez les courses pour obtenir des récompenses afin d'améliorer votre moto ou en acheter des nouvelles.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>course de moto</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>course de moto</text>
+		</text>		
+	</view>
+</theme>

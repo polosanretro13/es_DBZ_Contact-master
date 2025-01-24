@@ -1,0 +1,43 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Super Model © 1994 Comad.
+
+Super Model is a non-nude clone of "New Fantasia" featuring photographic images of both Japanese and western models. The objective is to reveal 80% of the silhouetted girl's image within the time limit while avoiding the enemies.
+
+To complicate things, there is a bar with a pointer at the top of the screen. If the pointer dips below a certain level (indicated by the change in color) the image will change to that of a monster. The pointer slowly creeps towards the monster side of the bar over time and moves dramatically towards the monster side whenever the player reveals a significant piece of the silhouette. Revealing the un-silhouetted part of the image moves the pointer back towards the girl side of the bar. If a round is completed while the monster's image is shown then the round must be repeated.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Super Modèle © 1994 Comad.
+
+Super Model est un clone non nu de "New Fantasia" présentant des images photographiques de modèles japonais et occidentaux. L'objectif est de révéler 80% de l'image de la jeune fille dans le temps imparti tout en évitant les ennemis.Pour compliquer les choses, il y a une barre avec un pointeur en haut de l'écran.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Super Model Comad</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1994</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Super Model Comad</text>
+		</text>		
+	</view>
+</theme>

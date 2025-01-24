@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>A fishing video game is a genre of video games in which the player engages in virtual/  hunting games, Hunt and shoot a deer in the USA, target a rhino in Africa, target a walrus in Russia or shoot a dingo in the Australian Outback.
+ immersion is total thanks to the environments and animals with realistic behaviors</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Un jeu vidéo de pêche est un genre de jeux vidéo dans lequel le joueur pratique une pêche récréative virtuelle/ jeux de chasse, Chassez et tirez sur un cerf aux États-Unis, visez un rhinocéros en Afrique, mettez en joue un morse en Russie ou tirez sur un dingo dans l'Outback australien.
+ l'immersion est totale grâce aux environnements et à des animaux aux comportements réalistes</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>chasse et peche</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>chasse et peche</text>
+		</text>		
+	</view>
+</theme>

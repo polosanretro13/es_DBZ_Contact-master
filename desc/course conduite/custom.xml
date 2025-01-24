@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>A racing video game is a genre of video game whose gameplay is based on the control of a vehicle, most often motorized. The goal is generally to progress as quickly as possible from one point to another to gain over others or over time.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Un jeu vidéo de course est un genre de jeu vidéo dont le gameplay est basé sur le contrôle d'un véhicule, le plus souvent motorisé. Le but est généralement de progresser le plus rapidement possible d'un point à un autre pour gagner sur les autres ou sur le temps.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>course voiture</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>course voiture</text>
+		</text>		
+	</view>
+</theme>
