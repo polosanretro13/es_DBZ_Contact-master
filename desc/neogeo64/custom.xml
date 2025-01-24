@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>L'Hyper Neo-Geo 64 est un système à cartouches pour borne d'arcade compatible JAMMA. Il a été créé afin de succéder au système Neo-Geo MVS datant à l'époque de sept ans. Comme son nom l'indique, il est doté d'un microprocesseur 64 bits permettant de faire fonctionner des jeux en 3D, affichant 4096 couleurs simultanément parmi une palette de 16,7 millions de couleurs dans une résolution de 640 x 480 pixels.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>Neo-Geo es el nombre de un sistema de 16 bits basado en cartuchos para arcades así como videoconsolas para el hogar lanzado en 1990 por la compañía de videojuegos japonesa SNK.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>L'Hyper Neo-Geo 64 est un système à cartouches pour borne d'arcade compatible JAMMA. Il a été créé afin de succéder au système Neo-Geo MVS datant à l'époque de sept ans. Comme son nom l'indique, il est doté d'un microprocesseur 64 bits permettant de faire fonctionner des jeux en 3D, affichant 4096 couleurs simultanément parmi une palette de 16,7 millions de couleurs dans une résolution de 640 x 480 pixels</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Neo Geo</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1990</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>SNK Corporation</text>
+		</text>			
+	</view>
+</theme>

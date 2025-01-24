@@ -1,0 +1,61 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>Le System 357 est un système d'arcade basé sur la PlayStation 3 destiné aux salles d'arcade, créé par la société japonaise Namco Bandai Games en 2007.
+Namco Bandai Games commercialise le 26 novembre 2007, son tout nouveau système d'arcade appelé System 3571. Comme tous les systèmes d'arcade de la société, il peut également être appelé Namco System xyz, soit ici Namco System 357.</text>
+		</text>
+
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Le System 357 est un système d'arcade basé sur la PlayStation 3 destiné aux salles d'arcade, créé par la société japonaise Namco Bandai Games en 2007.
+Namco Bandai Games commercialise le 26 novembre 2007, son tout nouveau système d'arcade appelé System 3571. Comme tous les systèmes d'arcade de la société, il peut également être appelé Namco System xyz, soit ici Namco System 357.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Visual Pinball</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>2000</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Randy Davis</text>
+		</text>	
+
+		<text name="info5" extra="true">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+		
+				<text name="info5" extra="true"  region="PTBR">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+						<text name="info5" extra="true" region="EN">
+			<text>DEVELOPER:</text>
+		</text>
+						<text name="info5" extra="true" region="ES">
+			<text>DESARROLLADOR:</text>
+		</text>
+						<text name="info5" extra="true" region="FR">
+			<text>DÉVELOPPEUR:</text>
+		</text>			
+	</view>
+	
+		<customView name="HCoinSpin">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+
+
+	<customView name="CoinOps Details">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+	
+</theme>

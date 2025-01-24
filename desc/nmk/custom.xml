@@ -1,0 +1,38 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Nihon Maicom Kaihatsu, better known as NMK, was a Japanese video game developer that created various arcade games and shoot 'em ups. The company is best and mostly known for its Neo Geo title, Zed Blade.</text>
+		
+
+		</text>
+		<text name="info2" extra="true">
+			<text>NMK</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1980</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>NMK (company)</text>
+		</text>		
+	</view>
+</theme>
