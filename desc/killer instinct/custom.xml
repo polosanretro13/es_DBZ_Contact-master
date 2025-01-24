@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Killer Instinct is a series of fighting video games developed by Rare. Started in 1994 with Killer Instinct on arcade machines, the game will be adapted for the Super Nintendo1 and Game Boy2 consoles.
+Killer Instinct is a fighting game on Xbox One, in line with the opuses released on arcade machines, Super Nintendo and Nintendo 64. Chain together deadly combos until you eliminate your opponents with class!</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Killer Instinct est une série de jeux vidéo de combat développée par Rare. Débutée en 1994 avec Killer Instinct sur bornes d'arcade, le jeu se verra adapté sur les consoles Super Nintendo1 et Game Boy2.
+Killer Instinct est un jeu de combat sur Xbox One, dans la droite lignée des opus sortis sur bornes d'arcade, Super Nintendo et Nintendo 64. Enchaînez les combos meurtriers jusqu'à éliminer vos adversaires avec classe !</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Killer Instinctt</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text> 1994</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Killer Instinct</text>
+		</text>		
+	</view>
+</theme>

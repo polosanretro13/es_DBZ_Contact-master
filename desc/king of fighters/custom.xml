@@ -1,0 +1,38 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>
+The King of Fighters is a series of fighting games generally in 2 dimensions from the Japanese publisher SNK (former company) then SNK, the first episode of which was released in arcades as well as on the console created by the same company, the Neo- Geo AES, in 1994 and subsequently adapted on many platforms.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>The King of Fighters est une série de jeux de combat généralement en 2 dimensions de l'éditeur japonais SNK (ancienne société) puis SNK, dont le premier épisode est sorti en arcade ainsi que sur la console créée par cette même compagnie, la Neo-Geo AES, en 1994 et par la suite adaptée sur de nombreuses plateformes.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>The King of Fighters</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text> 1994</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>The King of Fighters</text>
+		</text>		
+	</view>
+</theme>

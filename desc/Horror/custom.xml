@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Horror game, A horror game is a genre of video game centered around horror fiction and usually designed to scare the player. Unlike most other video game genres, which are classified based on their gameplay, horror games are almost always based on narrative or visual presentation and use a variety of gameplay types.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Jeu d'horreur, Un jeu d'horreur est un genre de jeu vidéo centré sur la fiction d'horreur et généralement conçu pour effrayer le joueur. Contrairement à la plupart des autres genres de jeux vidéo, qui sont classés en fonction de leur gameplay, les jeux d'horreur sont presque toujours basés sur une présentation narrative ou visuelle et utilisent une variété de types de gameplay</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Horror</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1980</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Horror( horreur)</text>
+		</text>		
+	</view>
+</theme>

@@ -1,0 +1,42 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Grendizer unfortunately being a minor series in Japan, the title robot appears in relatively few video games since, inevitably, all the game software featuring giant robots from the animation industry is produced there. And when he appears, he is often just a dressing-up character. Battle Dodgeball - Tokyu Gekitotsu
+Year: 1991
+Support: Nintendo Super Famicom/Super Nintendo
+Publisher: Banpresto
+Type of game: Sport (Dodgeball)
+Note ; GOLDORAK present as a non-playable character GOLDORAK appears in the background among the spectators and is also present on the cartridge sticker.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Goldorak étant hélas une série mineure au Japon, le robot-titre apparait dans relativement peu de jeux vidéos puisque, forcément, tous les logiciels ludiques mettant en scène des robots géants issus de l'industrie de l'animation sont produits là-bas. Et lorsqu'il apparait, il n'est bien souvent qu'un personnage d'habillage. Battle Dodgeball - Tokyu Gekitotsu</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Goldorak</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1993</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Goldorak </text>
+		</text>		
+	</view>
+</theme>

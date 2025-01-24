@@ -1,0 +1,38 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>En 1982, Jaleco se lance dans le développement et la fabrication de jeux vidéo d'arcade. La même année, la société décide de raccourcir son nom en joignant les premières syllabes de chaque mot donnant Jaleco. Son activité est le développement de jeux vidéo</text>
+				</text>
+		
+
+<text name="info2" extra="true">
+			<text>Jaleco</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1974</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Jaleco Leisure Corporation</text>
+		</text>		
+	</view>
+</theme>

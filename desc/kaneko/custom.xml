@@ -1,0 +1,38 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Kaneko Seisakusho Co., Ltd.ou Kaneko était une société japonaise de développement et de vente de jeux vidéo et de logiciels informatiques créée en 1980.</text>
+		
+
+		</text>
+		<text name="info2" extra="true">
+			<text>Kaneko</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1980</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Kaneko Seisakusho Co., Ltd</text>
+		</text>		
+	</view>
+</theme>
