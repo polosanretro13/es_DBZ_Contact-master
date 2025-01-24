@@ -1,0 +1,59 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>La Pippin est née d’une ambition commune entre Apple et Bandai de créer une console de jeux vidéo. Lancée en 1996, la Pippin a été commercialisée principalement au Japon et aux États-Unis. Malgré un lancement ambitieux, la console n’a jamais réussi à trouver son public. Avec seulement 42 000 unités vendues, elle a été rapidement retirée du marché. Le lancement international, bien qu’audacieux, n’a pas réussi à compenser les lacunes du produit.</text>
+		</text>
+
+		
+				<text name="info1" extra="true" region="FR">
+			<text>La Pippin est née d’une ambition commune entre Apple et Bandai de créer une console de jeux vidéo. Lancée en 1996, la Pippin a été commercialisée principalement au Japon et aux États-Unis. Malgré un lancement ambitieux, la console n’a jamais réussi à trouver son public. Avec seulement 42 000 unités vendues, elle a été rapidement retirée du marché. Le lancement international, bien qu’audacieux, n’a pas réussi à compenser les lacunes du produit.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Visual Pinball</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>2000</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Randy Davis</text>
+		</text>	
+
+		<text name="info5" extra="true">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+		
+				<text name="info5" extra="true"  region="PTBR">
+			<text>DESENVOLVEDOR:</text>
+		</text>
+						<text name="info5" extra="true" region="EN">
+			<text>DEVELOPER:</text>
+		</text>
+						<text name="info5" extra="true" region="ES">
+			<text>DESARROLLADOR:</text>
+		</text>
+						<text name="info5" extra="true" region="FR">
+			<text>DÉVELOPPEUR:</text>
+		</text>			
+	</view>
+	
+		<customView name="HCoinSpin">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+
+
+	<customView name="CoinOps Details">
+      <image name="art3" extra="true">
+         <path>./../assets/coinops/fpinball.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	</customView>
+	
+</theme>

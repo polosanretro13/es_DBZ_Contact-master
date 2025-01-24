@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Taito Corporation (株式会社タイトー, Kabushikigaisha Taitō?) est une société japonaise de développement et de distribution de jeux vidéo et de matériel de jeux d'arcade, créée en 1953, Aujourd'hui Taito est la propriété exclusive de l'éditeur Square Enix.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Taito</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1953</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Taito Corporation</text>
+		</text>		
+	</view>
+</theme>

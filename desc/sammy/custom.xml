@@ -1,0 +1,38 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Sammy Corporation (サミー株式会社, Samī kabushikigaisha?) est une société japonaise qui exerce son activité dans le domaine du développement et commercialisation de pachinkos, de pachislots et de jeux vidéo depuis 1975.</text>
+		
+		</text>
+
+		<text name="info2" extra="true">
+			<text>Sammy</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1975</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Sammy Corporation</text>
+		</text>		
+	</view>
+</theme>

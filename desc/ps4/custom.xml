@@ -1,0 +1,39 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text></text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text></text>
+		</text>
+		
+				<text name="info1" extra="true" region="EN">
+			<text>A console designed for gamers
+The PS4 system is built around a powerful processor designed specifically for it, with eight cores and a high-end graphics processor capable of 1.84 TFLOPS with 8 GB of ultra-fast GDDR5 memory.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text></text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Une console pensée pour les joueurs
+Le système PS4 est bâti autour d'un puissant processeur conçu spécialement pour lui, fort de huit cœurs et d'un processeur graphique haut-de-gamme autorisant 1,84 TFLOPS doté de 8 Go de mémoire GDDR5 ultra-rapide.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Sony PlayStation 4</text>
+		</text>
+		
+				<text name="info3" extra="true">
+			<text>2013</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Sony PlayStation 4</text>
+		</text>	
+	</view>
+</theme>

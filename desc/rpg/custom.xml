@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>The video game RPG game uses a large majority of the elements of the paper role-playing game, but has its own specificities. There is also a big emphasis on history, strategic combat, often turn-based, character progression as well as, for some, this dimension of choice.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Le jeu RPG vidéoludique reprend une grande majorité des éléments du jeu de rôle papier, mais possède ses propres spécificités. On y retrouve aussi une grosse emphase sur l'histoire, un combat stratégique, souvent au tour par tour, la progression de personnages ainsi que, pour certains, cette dimension de choix.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>RPG </text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text></text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>RPG</text>
+		</text>		
+	</view>
+</theme>

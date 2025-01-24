@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>Puzzle Bobble, is a puzzle video game developed and published by Taito in 1994 on Taito System B in June, on Neo-Geo MVS in December and on Neo-Geo CD in 1995 and has been ported to numerous media. This is the first game in the Puzzle Bobble series.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Puzzle Bobble, est un jeu vidéo de puzzle développé et édité par Taito en 1994 sur Taito System B en juin, sur Neo-Geo MVS en décembre et sur Neo-Geo CD en 1995 et a été porté sur de nombreux supports. C'est le premier jeu de la série Puzzle Bobble.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Puzzle Bobble</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1994</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Puzzle Bobble</text>
+		</text>		
+	</view>
+</theme>

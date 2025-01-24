@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>The Pinball Arcade is a pinball video game developed by FarSight Studios. The game is a simulated collection of 100 real pinball tables licensed from Gottlieb, Alvin G. and Company and Stern Pinball, a company that also owns the rights to machines from Data East and Sega Pinball.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>The Pinball Arcade est un jeu vidéo de flipper développé par FarSight Studios. Le jeu est une collection simulée de 100 véritables tables de flipper sous licence de Gottlieb, Alvin G. and Company et Stern Pinball, une société qui possède également les droits des machines de Data East et Sega Pinball.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>Pinball Arcade </text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>2012</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Pinball Arcade </text>
+		</text>		
+	</view>
+</theme>

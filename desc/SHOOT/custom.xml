@@ -1,0 +1,37 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>no description languages</text>
+		</text>
+
+		<text name="info1" extra="true" region="PTBR">
+			<text>no description languages</text>
+		</text>	
+		
+				<text name="info1" extra="true" region="EN">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="ES">
+			<text>no description languages</text>
+		</text>
+		
+				<text name="info1" extra="true" region="FR">
+			<text>Tous vos jeux de tir sont présent ici...</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>SHOOT</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>19</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>SHOOT</text>
+		</text>		
+	</view>
+</theme>
