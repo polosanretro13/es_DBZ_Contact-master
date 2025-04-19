@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+
+
+ <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./medias/iconsets/dbz/Kodi.png</iconKodi>
+      <iconSystem>./medias/iconsets/dbz/System.png</iconSystem>
+      <iconUpdates>./medias/iconsets/dbz/Updates.png</iconUpdates>
+      <iconGames>./medias/iconsets/dbz/Games.png</iconGames>
+      <iconControllers>./medias/iconsets/dbz/Controllers.png</iconControllers>
+      <iconUI>./medias/iconsets/dbz/UI.png</iconUI>
+      <iconSound>./medias/iconsets/dbz/Sound.png</iconSound>
+      <iconNetwork>./medias/iconsets/dbz/Network.png</iconNetwork>
+      <iconScraper>./medias/iconsets/dbz/Scraper.png</iconScraper>
+      <iconAdvanced>./medias/iconsets/dbz/Advanced.png</iconAdvanced>
+      <iconQuit>./medias/iconsets/dbz/Quit.png</iconQuit>
+      <iconRestart>./medias/iconsets/dbz/Restart.png</iconRestart>
+      <iconShutdown>./medias/iconsets/dbz/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./medias/iconsets/dbz/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./medias/iconsets/dbz/Contest.png</iconRetroachievements>
+	</menuIcons>
+  </view>
+
+  <view name="system">
+	<helpsystem name="help">
+<pos>0.35 0.96</pos>
+	</view>
+	
+	<view name="menu, system, basic, detailed">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./arcade/updown.png</iconUpDown>
+			<iconLeftRight>./arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./arcade/all.png</iconUpDownLeftRight>
+			<iconA>./arcade/a.png</iconA>
+			<iconB>./arcade/b.png</iconB>
+			<iconX>./arcade/x.png</iconX>
+			<iconY>./arcade/y.png</iconY>
+			<iconL>./arcade/l.png</iconL>
+			<iconR>./arcade/r.png</iconR>
+			<iconStart>./arcade/start.png</iconStart>
+			<iconSelect>./arcade/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+	
+</theme>

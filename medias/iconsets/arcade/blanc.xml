@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+ <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./medias/iconsets/dbz/Kodi.png</iconKodi>
+      <iconSystem>./medias/iconsets/dbz/System.png</iconSystem>
+      <iconUpdates>./medias/iconsets/dbz/Updates.png</iconUpdates>
+      <iconGames>./medias/iconsets/dbz/Games.png</iconGames>
+      <iconControllers>./medias/iconsets/dbz/Controllers.png</iconControllers>
+      <iconUI>./medias/iconsets/dbz/UI.png</iconUI>
+      <iconSound>./medias/iconsets/dbz/Sound.png</iconSound>
+      <iconNetwork>./medias/iconsets/dbz/Network.png</iconNetwork>
+      <iconScraper>./medias/iconsets/dbz/Scraper.png</iconScraper>
+      <iconAdvanced>./medias/iconsets/dbz/Advanced.png</iconAdvanced>
+      <iconQuit>./medias/iconsets/dbz/Quit.png</iconQuit>
+      <iconRestart>./medias/iconsets/dbz/Restart.png</iconRestart>
+      <iconShutdown>./medias/iconsets/dbz/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./medias/iconsets/dbz/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./medias/iconsets/dbz/Contest.png</iconRetroachievements>
+	</menuIcons>
+  </view>
+
+  <view name="system">
+	<helpsystem name="help">
+<pos>0.35 0.96</pos>
+	</view>
+
+
+ <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./medias/iconsets/blanc/Kodi.png</iconKodi>
+      <iconSystem>./medias/iconsets/blanc/System.png</iconSystem>
+      <iconUpdates>./medias/iconsets/blanc/Updates.png</iconUpdates>
+      <iconGames>./medias/iconsets/blanc/Games.png</iconGames>
+      <iconControllers>./medias/iconsets/blanc/Controllers.png</iconControllers>
+      <iconUI>./medias/iconsets/blanc/UI.png</iconUI>
+      <iconSound>./medias/iconsets/blanc/Sound.png</iconSound>
+      <iconNetwork>./medias/iconsets/blanc/Network.png</iconNetwork>
+      <iconScraper>./medias/iconsets/blanc/Scraper.png</iconScraper>
+      <iconAdvanced>./medias/iconsets/blanc/Advanced.png</iconAdvanced>
+      <iconQuit>./medias/iconsets/blanc/Quit.png</iconQuit>
+      <iconRestart>./medias/iconsets/blanc/Restart.png</iconRestart>
+      <iconShutdown>./medias/iconsets/blanc/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./medias/iconsets/blanc/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./medias/iconsets/blanc/Contest.png</iconRetroachievements>
+    </menuIcons>
+	</view> 
+	
+  	<view name="menu, system, basic, detailed, grid">
+		<helpsystem name="help">
+			<iconColor>${pauseColorblanc}</iconColor>
+			<textColor>${pauseColorTexto}</textColor>
+		</helpsystem>		
+	</view> 
+  
+</theme>
