@@ -1,5 +1,6 @@
 # es DBZ Contact
 Thème sur Dragon Ball Z pour Batocera et Retrobat.
+Si vous avez telecharger les medias cartridge, box back pour vos jeux, ceux ci s'afficheront dans les gamelistes.
 Certaines vidéos seront à télécharger sur mon drive,
 Du a leurs tailles dépassant les 25mo.
 Les videos systemes maquantent sont dispo ici :
