@@ -11,6 +11,7 @@ vous pouvez les complétées ici sur mon drive :
 https://drive.google.com/drive/folders/1CbGfhf-VxPWqcYVh5HCZGCOhUHpwh0ge?usp=sharing
 
 Theme on Dragon Ball Z for Batocera and Retrobat.
+If you have downloaded the cartridge media, box back for your games, these will appear in the game lists
 Some videos will be uploaded to my drive,
 Due to their sizes exceeding 25mo.
 The missing system videos are available here:
